@@ -1,19 +1,14 @@
-Welcome to Glitch
+Welcome to my first 5 pages Web HTML pages!
 =================
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+This is the assignment 1 for U Pitt Information science web standard and technologies. The whole file contains 5 hand coded not responsive and tedious (of course, for a new web desiner:) pages. I am so glad that you happened to click on and would like to check out the online flower shop! Assignment contains many online picures and icons, I referenced them in the code in comment. 
 
 
-Your Project
+My project
 ------------
 
 ### ← README.md
 
-That's this file, where you can tell people what your cool website does and how you built it.
+That's this file, where I tell u what my cool website does and how I built it.
 
 ### ← index.html
 
@@ -29,9 +24,4 @@ If you're feeling fancy you can add interactivity to your site with JavaScript.
 
 ### ← assets
 
-Drag in `assets`, like images or music, to add them to your project
 
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
