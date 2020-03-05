@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact us-FlowerLove</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/contactCSS.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/contactJS.js" defer></script>
+  </head>
+
+  <body>
+    <!-- header: Flower logo-->
+    <div class="toplogo">
+      <header>
+        <a href="index.html">
+          <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+          <img
+            class="flowerlogo"
+            src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flotus.svg?v=1580669753609"
+            alt="Flower Logo"
+          />
+        </a>
+      </header>
+    </div>
+
+    <!--navigation bar-->
+    <div class="topnavibar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- form to fill out asking for comments-->
+    <div class="comments">
+      <form id="contactform">
+        <fieldset>
+          <legend id="getcomments">
+            <strong>Get some comments? </strong><span style="color:#92a8d1;font-weight:bold">Contact us:</span>
+          </legend>
+        
+          <div class="personalinfo">
+            <label for="firstname" class="text">First Name: </label><br />
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Your first name"
+              required
+            /><br />
+
+            <label for="lastname" class="text">Last Name: </label><br />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Your last name"
+              required
+            /><br /><br />
+
+            <label for="email" class="text">Email address: </label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address"
+              required
+            /><br /><br />
+          </div>
+
+          <div class="comments">
+            <label for="comments" class="text">Comments or Questions to Us:</label><br />
+            <textarea
+              id="comments"
+              rows="10"
+              cols="50"
+              placeholder="Put your comment here."
+            ></textarea
+            ><br />
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit" id="submit" class="text"/>
+          </div>
+          
+          <div id="output" class="text"></div>
+          
+        
+        </fieldset>
+      </form>
+    </div>
+  
+    <!--Footer-->
+   <div class="footer">
+      <br /><br />
+      <footer>
+        <p id="followus">
+          Follow us on social media for updates and discount!
+        </p>
+        <div >
+          <table id="share">
+            <tr>
+              <td><img id="ins" alt="Instagram Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Finstagram-sketched.svg?v=1580851705466"/></td>
+              <td><img id="twitter" alt="Twitter Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ftwitter.svg?v=1580851741291"/></td>
+              <td><img id="fb" alt="Faceboolk Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ffacebook.svg?v=1580853974330"/></td>
+              <td><img id="linkedin" alt="Linkedin Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flinkedin.svg?v=1580853873557"/></td>
+            </tr>
+          </table>
+        </div>
+        <p>Posted by: Nianyun Qi @2019 All Rights Reserved.</p>
+        <p>
+          Contact information:
+          <a href="mailto:niq5@pitt.edu">niq5@pitt.edu</a>.
+        </p>
+        
+      </footer>
+    </div>
+
+    
+  </body>
+</html>

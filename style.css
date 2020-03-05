@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #d8bfd8;
+}
+
+h1,h3 {
+  color: #8b4513;
+}
+
+/*Style Top Navigation bars accross the pages: reference to W3School.com's examples*/
+.topnavibar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #92a8d1;
+  border-radius: 5px;
+}
+
+/*Style Top Navigation bars' links accross the pages: reference to W3School.com's examples*/
+.topnavibar a {
+  float: left;
+  color: #333;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+/*Style Top Navigation bars' links hover by mouse: reference to W3School.com's examples*/
+.topnavibar a:hover, .active {
+  background-color: #d5f4e6;
+}
+
+table {
+    margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flowerlogo{
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+
+
+.rosespicture{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.like{
+  height:32px;
+  width: 40px;
+}
+
+.footer{
+  text-align: center;
+  
+}
+
+.aboutus{
+  width: 62%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.indexpic{
+  float: right;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 5px solid #92a8d1; 
+  border-style: dotted;
+}
+
+
+#share{
+  text-align: center
+}
+
+#ins,#twitter,#fb,#linkedin{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#like{
+  cursor: pointer;
+}
+

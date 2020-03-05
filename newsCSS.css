@@ -1,0 +1,34 @@
+.events{
+  color: #8b4513;
+  text-decoration: underline;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.intro{
+  color: #92a8d1;
+}
+
+.article1,#article1{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.roses{
+  height: 300px;
+  width: 400px;
+}
+
+.flowers{
+  border: 5px solid #92a8d1;
+  border-style: dotted;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.posts: visited{
+  color: #ffa500;
+}
+
+#flowername{
+  text-align: center;
+}
