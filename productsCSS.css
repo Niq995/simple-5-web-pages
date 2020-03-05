@@ -1,0 +1,33 @@
+.pic{
+  height: 200px;
+  width: 200px;
+}
+
+p.flower{
+  outline-color:red;
+  outline-style: dotted;
+}
+
+.flowerpic {
+  border: 1px solid #92a8d1;
+  border-collapse: collapse;
+  width: 100%
+}
+
+.flowerpic:hover{
+  border: 5px solid #92a8d1;
+  border-style: dotted;
+  border-radius: 5px;
+  background-color: #ffe4c4;
+  cursor: pointer;
+}
+
+td.tablepic{
+  width: 25%;
+}
+
+td.flowertitle{
+  height: 40%;
+
+}
+
