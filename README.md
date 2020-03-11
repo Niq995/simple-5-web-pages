@@ -5,7 +5,7 @@ The whole file contains 5 hand coded, responsive (looks good both on mobile devi
 
 ### How to check out the project
 Way 1:
-If you would like to use Glitch, just simply click on the link below and click on "show": https://glitch.com/~webassginment1
+If you would like to use Glitch, just simply click on the link below and click on "show": https://glitch.com/~niq5-webactivity7
 
 Way 2:
 Pull the whole repository from my github to whatever code editor u like and edit whatever you want! 
