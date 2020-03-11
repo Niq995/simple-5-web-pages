@@ -1,6 +1,7 @@
 Welcome to my first 5 pages Web HTML pages!
 =================
-This is the assignment 1 for U Pitt Information science web standard and technologies. The whole file contains 5 hand coded not responsive and tedious (of course, for a new web desiner:) pages. I am so glad that you happened to click on and would like to check out the online flower shop! Assignment contains many online picures, icons, and articles, I referenced them in the code in comment. 
+This is the assignment 1 for U Pitt Information science web standard and technologies. 
+The whole file contains 5 hand coded, responsive (looks good both on mobile devices and web pages) with simple bootstrap style and javascript  pages. I am so glad that you happened to click on and would like to check out the online flower shop! Assignment contains many online picures, icons, and articles, I referenced them in the code in comment. 
 
 ### How to check out the project
 Way 1:

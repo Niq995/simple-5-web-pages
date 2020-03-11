@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/newsCSS.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/newsCSS.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="/src/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -30,22 +34,30 @@
     </div>
 
     <!--navigation bar-->
-    <div class="topnavibar">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="news.html">News</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-danger navbar-dark text-center">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
 
     <!--main article contents-->
-    <div>
+    <div class="container-fluid">
       <!--Article reference to: https://www.independent.co.uk/extras/indybest/valentines/best-valentines-day-flowers-a9305361.html -->
       <article>
-        <h1>
+        <h1 class="text-danger">
           3 best Valentine's Day flowers anyone would love to receive
         </h1>
         <p class="article1">
@@ -75,48 +87,55 @@
       viverra sapien accumsan scelerisque. Sed nec semper neque. Quisque id
       bibendum tortor. Praesent faucibus congue.
         </p>
-        <table id="flowers">
-          <tr>
-            <td><img class="roses" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose1.jpg?v=1580849014002" alt="Flower Picture"></td>
-            <td><img class="roses" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose2.jpg?v=1580849017274" alt="Flower Picture"></td>
-            <td><img class="roses" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose3.jpg?v=1580849021483" alt="Flower Picture"></td>
-          </tr>
-          <tr id="flowername">
-            <td>Arena Flowers a dozen fairtrade red roses</td>
-            <td>Bloom & Wild the Valentine’s delight</td>
-            <td>M&S protea posy bouquet</td>
-          </tr> 
-        </table>
-        <br><br><a class="article" href="news.html">《——Back to news</a>
         
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <img class="img-fluid img-thumbnail" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose1.jpg?v=1580849014002" alt="Flower Picture">
+            <p>Arena Flowers a dozen fairtrade red roses</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-fluid img-thumbnail" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose2.jpg?v=1580849017274" alt="Flower Picture">
+            <p>Bloom & Wild the Valentine’s delight</p>          
+          </div>
+          <div class="col-sm-4">
+            <img class="img-fluid img-thumbnail" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Frose3.jpg?v=1580849021483" alt="Flower Picture">
+            <p>M&S protea posy bouquet</p>
+          </div>
+        </div>
+        
+        <div>
+          <br>
+          <br>
+          <a class="article" href="news.html">《——Back to news</a>
+        </div>
       </article>
     </div>
 
-    <!--Footer-->
-    <div class="footer">
-      <br /><br />
+     <!--Footer-->
       <footer>
-        <p id="followus">
-          Follow us on social media for updates and discount!
-        </p>
-        <div >
+        <div class="container">
+          <p class="text-danger text-center font-weight-bold">
+            Follow us on social media for updates and discount!
+          </p>
+        </div>
+        <div class="row">
           <table id="share">
             <tr>
-              <td><img id="ins" alt="Instagram Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Finstagram-sketched.svg?v=1580851705466"/></td>
-              <td><img id="twitter" alt="Twitter Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ftwitter.svg?v=1580851741291"/></td>
-              <td><img id="fb" alt="Faceboolk Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ffacebook.svg?v=1580853974330"/></td>
-              <td><img id="linkedin" alt="Linkedin Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flinkedin.svg?v=1580853873557"/></td>
+              <td ><img class="mx-auto d-block" id="ins" alt="Instagram Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Finstagram-sketched.svg?v=1580851705466"/></td>
+              <td ><img class="mx-auto d-block" id="twitter" alt="Twitter Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ftwitter.svg?v=1580851741291"/></td>
+              <td ><img class="mx-auto d-block" id="fb" alt="Faceboolk Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ffacebook.svg?v=1580853974330"/></td>
+              <td ><img class="mx-auto d-block" id="linkedin" alt="Linkedin Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flinkedin.svg?v=1580853873557"/></td>
             </tr>
           </table>
         </div>
-        <p>Posted by: Nianyun Qi @2019 All Rights Reserved.</p>
-        <p>
-          Contact information:
-          <a href="mailto:niq5@pitt.edu">niq5@pitt.edu</a>.
-        </p>
-        
+        <div class="container">
+          <p class="text-danger text-center font-weight-bold ">
+            Posted by: Nianyun Qi @2019 All Rights Reserved.<br>
+            Contact information:
+            <a href="mailto:niq5@pitt.edu">niq5@pitt.edu</a>.
+          </p>
+        </div>
       </footer>
-    </div>
     
   </body>
 </html>
