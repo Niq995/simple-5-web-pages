@@ -1,11 +1,15 @@
-Welcome to Glitch
+Activity 7 | INFSCI 2560: Web Technologies & Standards
 =================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This week you will re-style a page you made for assignment 1 using Bootstrap 
+1. Review the Bootstrap documentation
+2. Remix or copy content from Assignment 1 into a new Glitch Project
+3. Bootstrap it!<br>
+  a. Wrap content in a container class<br>
+  b. Add grid columns with row classes<br>
+  c. Add three Bootstrap components<br>
+4. Make sure the page is readable on Mobile
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
 
 
 Your Project

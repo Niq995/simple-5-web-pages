@@ -1,0 +1,12 @@
+.border:hover{
+  border: 5px solid #92a8d1 !important;
+  border-style: dotted !important;
+  border-radius: 5px !important;
+  background-color: #ffe4c4 !important;
+  cursor: pointer !important;
+}
+
+.border{
+  vertical-align: middle !important;
+}
+

@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: #d8bfd8;
+  background: #d8bfd8 !important;
 }
 
 h1,h3 {
@@ -31,7 +31,7 @@ h1,h3 {
 }
 /*Style Top Navigation bars' links hover by mouse: reference to W3School.com's examples*/
 .topnavibar a:hover, .active {
-  background-color: #d5f4e6;
+  background-color: #ff9a9ab9;
 }
 
 table {
@@ -48,16 +48,8 @@ ul {
   border: 0px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 100px;
-}
-
-
-.rosespicture{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 500px;
-  border-radius: 30px;
+  padding-left: 15px;
+  width: 120px;
 }
 
 .like{
@@ -71,16 +63,7 @@ ul {
 }
 
 .aboutus{
-  width: 62%;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-.indexpic{
-  float: right;
-  overflow: hidden;
-  border-radius: 30px;
-  border: 5px solid #92a8d1; 
-  border-style: dotted;
 }
 
 

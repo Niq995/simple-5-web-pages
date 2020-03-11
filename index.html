@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-    <script src="/indexJS.js" defer></script>
+    <script src="/src/script.js" defer></script>
+    <script src="/src/indexJS.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -30,129 +34,125 @@
     </div>
 
     <!--navigation bar-->
-    <div class="topnavibar">
-      <nav>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-danger navbar-dark text-center">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
 
+    <div class="container-fluid">
+      <h3 class="text-danger">
+        Hi there, Welcome to our new website!
+      </h3>
+    </div>
+
     <!--First rose picture banner-->
-    <div class="rosespicture">
-      <section>
+    <div class="container-fluid">
         <!-- Picture reference to: <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by denamorado - www.freepik.com</a>-->
-        <h3>
-          Hi there, Welcome to our new website!
-        </h3>
         <img
-          class="roses"
+          class="img-fluid rounded"
           src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2FRoses.jpg?v=1580670206243"
           alt="Rose Banner"
         />
-      </section>
     </div>
 
     <!--wrapper div-->
-    <div class="wrapper">
-      <div>
-        <article>
-          <h1>
-            Love our website? Give us your like
+    <div class="container-fluid">
+      <h1>
+        Love our website? Give us your like
+        <img
+          class="like"
+          id="like"
+          src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flove.png?v=1580704455111"
+          alt="Like Website"
+        />
+      </h1>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-7">
+          <!--Article reference to: https://www.laurasfloralboutique.net/about_us.php with slightly changed content-->
+            <p class="aboutus">
+              <strong>Make any occasion special with us!</strong>
+              <br /><br />Proudly serving the Pittsburgh, PA area, we're a
+              full-service local florist that is family-owned and operated. Our
+              knowledgeable staff is ready to assist you with placing orders for
+              local delivery or anywhere in the world. Not sure what to send?
+              We'll gladly help you with creative suggestions! <br /><br />For
+              your convenience, we offer daily floral delivery to local funeral
+              homes and hospitals. We hope you enjoy your online shopping
+              experience with secure 24-hour ordering right at your fingertips. If
+              preferred, you may call us to place orders direct at (000) 000-0000.
+              <br /><br />
+              You can always depend on our courteous staff to help you with
+              ordering flowers for the funeral of a friend or loved one. We will
+              design and deliver a funeral arrangement that beautifully conveys
+              your expression of sympathy and serves as a lovely memorial to the
+              deceased.
+              <br /><br />Order Wedding Flowers and Party Flowers from Laura's
+              Floral Boutique formerly Johnson The Flor. We will ensure your
+              special day is a blooming success! Call us in advance at (000)
+              000-0000 to set up an appointment for a consultation. <br /><br />
+              Shop for a variety of Unique Gifts, including plush stuffed animals,
+              balloons, fruit baskets, gourmet baskets, scented candles, silk
+              arrangements, home décor items, baby gifts, candy & chocolates and
+              more! <br />Browse our assortment of Dish Gardens, Green Plants &
+              Blooming Plants for a gift that adds life to any room, office or
+              outdoor space. Need fresh flowers delivered in Monroeville, PA and
+              the surrounding areas? Call us today at (000) 000-0000 or (000)
+              000-0000 to speak with one of our designers. <br /><br />
+              <strong>You can also shop flowers online 24 hours a day!</strong>
+            </p>
+          </div>
+          <div class="col-5">
             <img
-              class="like"
-              id="like"
-              src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flove.png?v=1580704455111"
-              alt="Like Website"
-            />
-          </h1>
-          <div class="indexpic">
-            <img
+              class="img-fluid img-thumbnail float-right"
               src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2FIndex.jpg?v=1580844070466"
               alt="Picture of Flowers"
             />
           </div>
-      
-          <p class="aboutus">
-            <strong>Make any occasion special with us!</strong>
-            This is some dummy text about the web.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Curabitur mollis urna ultricies risus
-            blandit, vitae semper velit fermentum. Fusce vel lorem sed ligula
-            maximus porta. Maecenas ac sagittis neque. Aenean lobortis, ante sed
-            iaculis fermentum, enim lorem feugiat mi, ac pretium diam nibh ac
-            ipsum. Vestibulum a placerat arcu. Donec aliquam egestas diam non
-            dapibus. Maecenas sollicitudin euismod suscipit. Curabitur eget
-            justo feugiat est dignissim interdum eu ut nulla. Integer in nibh
-            purus. Suspendisse dictum risus sit amet egestas eleifend. Maecenas
-            accumsan lobortis dolor, vel viverra sapien accumsan scelerisque.
-            Sed nec semper neque. Quisque id bibendum tortor. Praesent faucibus
-            congue. 
-            <br><br>Use this text to create your paragraphs.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Curabitur mollis urna
-            ultricies risus blandit, vitae semper velit fermentum. Fusce vel
-            lorem sed ligula maximus porta. Maecenas ac sagittis neque. Aenean
-            lobortis, ante sed iaculis fermentum, enim lorem feugiat mi, ac
-            pretium diam nibh ac ipsum. Vestibulum a placerat arcu. Donec
-            aliquam egestas diam non dapibus. Maecenas sollicitudin euismod
-            suscipit. Curabitur eget justo feugiat est dignissim interdum eu ut
-            nulla. Integer in nibh purus. Suspendisse dictum risus sit amet
-            egestas eleifend. Maecenas accumsan lobortis dolor, vel viverra
-            sapien accumsan scelerisque. Sed nec semper neque. Quisque id
-            bibendum tortor. Praesent faucibus congue.
-          </p>
-        </article>
       </div>
-    </div>
+    </div> 
 
     <!--Footer-->
-    <br /><br />
-    <footer class="footer">
-      <p id="followus">
-        Follow us on social media for updates and discount!
-      </p>
-      <div>
-        <table id="share">
-          <tr>
-            <td>
-              <img
-                id="ins"
-                alt="Instagram Icon"
-                src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Finstagram-sketched.svg?v=1580851705466"
-              />
-            </td>
-            <td>
-              <img
-                id="twitter"
-                alt="Twitter Icon"
-                src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ftwitter.svg?v=1580851741291"
-              />
-            </td>
-            <td>
-              <img
-                id="fb"
-                alt="Faceboolk Icon"
-                src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ffacebook.svg?v=1580853974330"
-              />
-            </td>
-            <td>
-              <img
-                id="linkedin"
-                alt="Linkedin Icon"
-                src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flinkedin.svg?v=1580853873557"
-              />
-            </td>
-          </tr>
-        </table>
-      </div>
-      <p>Posted by: Nianyun Qi @2019 All Rights Reserved.</p>
-      <p>
-        Contact information:
-        <a href="mailto:niq5@pitt.edu">niq5@pitt.edu</a>.
-      </p>
-    </footer>
+      <footer>
+        <div class="container">
+          <p class="text-danger text-center font-weight-bold">
+            Follow us on social media for updates and discount!
+          </p>
+        </div>
+        <div class="row">
+          <table id="share">
+            <tr>
+              <td ><img class="mx-auto d-block" id="ins" alt="Instagram Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Finstagram-sketched.svg?v=1580851705466"/></td>
+              <td ><img class="mx-auto d-block" id="twitter" alt="Twitter Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ftwitter.svg?v=1580851741291"/></td>
+              <td ><img class="mx-auto d-block" id="fb" alt="Faceboolk Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Ffacebook.svg?v=1580853974330"/></td>
+              <td ><img class="mx-auto d-block" id="linkedin" alt="Linkedin Icon" src="https://cdn.glitch.com/7328cc29-1021-45be-9480-3b8c192b43ca%2Flinkedin.svg?v=1580853873557"/></td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <p class="text-danger text-center font-weight-bold ">
+            Posted by: Nianyun Qi @2019 All Rights Reserved.<br>
+            Contact information:
+            <a href="mailto:niq5@pitt.edu">niq5@pitt.edu</a>.
+          </p>
+        </div>
+      </footer>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
